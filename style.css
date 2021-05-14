@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+body html{
+}
+.wrap{
+    background-image:linear-gradient(rgba(178, 215, 235, 0.938),#fff);
+}
+nav{
+    width: 100%;
+    padding: 2rem ;
+    background: none;
+    box-sizing: border-box;
+}
+.wrap .navbar .container-fluid .collapse a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.wrap .navbar .container-fluid .collapse .login button{
+    background: rgb(136, 136, 247);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+#secone {
+    margin-left: 10rem;
+    padding-top: 1rem;
+    height: 100vh;
+    max-width: 1500px;
+    box-sizing: border-box;
+}
+#secone .main{
+    /* background-color: #fff; */
+    
+    /* background-color: indigo; */
+    margin: 8rem 0rem;
+    max-width: 700px;
+    height: 100vh;
+
+} 
+#secone .main .content .info{
+    width: 100%;
+}
+#secone .main .content .info h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+#secone .main .content .info p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(168, 163, 163);
+    margin-bottom: 2rem;
+
+}
+#secone .main .image div{
+    position: absolute;
+    /* width: 100px;
+    height: 100px; */
+}
+#secone .main .image .div1{
+    top: 200px;
+    right: 200px;
+    width: 350px;
+    height: 300px;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background-color: chartreuse;
+    background-image: url(./img/img2.webp);
+
+}
+#secone .main .image .div2{
+    background-image: url(./img/img1.jpg);
+    top: 150px;
+    right: 430px;
+    width: 200px;
+    height: 130px;
+    border-radius: 1rem;
+    /* background-color: pink; */
+
+}
+#secone .main .image .div4{
+    max-width: 800px;
+    top: 200px;
+    right: 0px;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+
+}
+.main .image .div4-div{
+    /* position:absolute;
+    top: 50px;
+    right: 160px;
+    width: 300px;
+    height: 200px; */
+    /* width: 200px;
+    height: 300px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 0rem 0rem 1.5rem;
+    z-index: 1;
+}
+.main .image .div4-div ul .nav-item{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(230, 227, 227);
+    text-align: center;
+    padding-bottom: 26px;
+    box-sizing: border-box;
+}
+.main .image .div4-div ul .nav-item a{
+    color: black;
+    font-size: 8px;
+}
+#secone .main .image .div5{
+    top: 430px;
+    right: 160px;
+    width: 300px;
+    height: 200px;
+    border-radius: 1rem;
+    background-color: #fff;
+
+}
+/* Rounded sliders */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .bl:before {
+    background-color: blue;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(107, 231, 107);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .div5 ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 1rem;
+      padding: 0%;
+  }
+
+.div5 ul li{
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(224, 223, 223) ;
+}
+
+#secone .main .image .div6{
+    top: 430px;
+    right: 520px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: orange;
+}
+#secone .main .image .div8{
+    top: 230px;
+    right: 670px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color:rgb(77, 190, 235);
+}
+#secone .main .image .div9{
+    top: 280px;
+}
+#secone .main .image .div10{
+    top: 330px;
+}
+#secone .main .image .div11{
+    top: 380px;
+}
+#secone .main .image .div12{
+    top: 430px;
+}
+#secone .main .image .div13{
+    right: 600px;
+}
+#sectwo{
+    height: 70vh;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+#sectwo p{
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(168, 163, 163);
+    /* background: #fff; */
+}
+#sectwo h4{
+    padding-top: .5rem;
+}
+#sectwo span{
+    font-size: 10px;
+    color:rgb(84, 188, 230);
+}
+#sectwo .img{
+    /* width: 100%; */
+    height: 70vh;
+    position: relative;
+    /* background-color: chartreuse; */
+
+}
+#sectwo .img .part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 60vh;
+    width: 20%;
+    margin: 1rem;
+    /* background-color: bisque; */
+}
+#sectwo .img .part1 .div1{
+    position: absolute;
+    bottom: 300px;
+    left: 0px;
+    width: 250px;
+    height: 180px;
+    border-radius: 1rem;
+    /* background-color: #fff; */
+}
+#sectwo .img .part1 .cntner0{
+    background-image: url(./img/cntr1.jpg);
+    background-size: 250px 200px;
+    background-position: left top;
+
+}
+#sectwo .img .part1 .div2{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    left: 0px;
+    bottom: 80px; 
+    /* background-color: aqua; */
+}
+
+#sectwo .img .part1 .cntner1{
+    bottom: 260px; 
+    background-image: url(./img/phone-1.jpg);
+    background-size: 250px 200px;
+    background-position: left top;
+}
+#sectwo .img .part1 .cntner2{
+    bottom: 40px;
+}
+#sectwo .img .part1 .cntner3{
+    bottom: 220px; 
+    background-image: url(./img/laptop-4.jpg);
+}
+#sectwo .img .part1 .cntner4{
+    bottom: 0px; 
+}
+#sectwo .img .part1 .div3{
+    position: absolute;
+    width: 130px;
+    height: 170px;
+    left: -70px;
+    bottom: 260px;
+    border-radius: 1rem; 
+    /* background-color: aqua; */
+}
+#sectwo .img .part1 .iconsdiv{
+    position: absolute;
+    width: 65px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-radius: .5rem;
+}
+#sectwo .img .part1 .icon1{
+    bottom: 330px;
+    left: 30px;
+}
+#sectwo .img .part1 .icon2{
+    bottom: 245px;
+    left: 90px;
+}
+#sectwo .img .part1 .icon3{
+    bottom: 420px;
+    left: 30px;
+}
+#sectwo .img .part1 .icon4{
+    bottom: 300px;
+    left: 150px;
+}
+
+#sectwo .img .part2 .icon2{
+    width: 75px; 
+    height: 50px;
+    bottom: 380px;
+    left: 30px;
+    background-image: url(./img/laptop-5.webp);
+    background-position: center;
+    background-size: 75px 50px;
+}
+#sectwo .img .part2 .icon3{
+    bottom: 440px;
+    left: 150px;
+    background-image: url(./img/frnds-3.jpg);
+    background-position: center;
+    background-size: 65px 40px;
+}
+#sectwo .img .part2 .icon4{
+    width: 90px; 
+    height: 65px;
+    bottom: 265px;
+    left: 205px;
+    background-image: url(./img/frnds2.jpg);
+    background-position: center;
+    background-size: 90px 65px;
+}
+
+
+
