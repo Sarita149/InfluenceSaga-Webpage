@@ -242,6 +242,9 @@ nav{
     font-family: 'Poppins', sans-serif;
 
 }
+#sectwo .info{
+    margin-bottom: 5rem;
+}
 #sectwo p{
     font-size: 10px;
     font-weight: 300;
